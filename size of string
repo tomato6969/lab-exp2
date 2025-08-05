@@ -1,0 +1,44 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    int a;
+    
+    cout << "enter any integer: ";
+    cin >>a;
+    cout<<"integer = "<<a<<" and size is "<<sizeof(a)<<" bytes"<<endl;
+    
+    float b;
+    cout<<"enter any number with decimal: ";
+    cin>>b;
+    cout<<"the number is "<<b<<" and the size is "<<sizeof(b)<<"bytes"<<endl;
+    
+    string c;
+    cout<<"enter any string";
+    cin>>c;
+    cout<<"the string is "<<c<<" and the size is "<<sizeof(c)<<" bytes"<<endl;
+    
+    char d;
+    cout<<"enter any charachter ";
+    cin>>d;
+    cout<<"the char is "<<d<<" and the size is "<<sizeof(d)<<" bytes"<<endl;
+    
+    bool f;
+    cout<<"enter true or false";
+    cin>>boolalpha;
+    cin>>f;
+    cout<<f<<endl; 
+
+OUTPUT:
+enter any integer: 12
+integer = 12 and size is 4 bytes
+enter any number with decimal: 121.345
+the number is 121.345 and the size is 4bytes
+enter any stringrachit
+the string is rachit and the size is 32 bytes
+enter any charachter d
+the char is d and the size is 1 bytes
+enter true or falsetrue
+1
